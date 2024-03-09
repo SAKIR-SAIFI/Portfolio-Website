@@ -2,4 +2,43 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    background-color: #fef9ef;
+}
 
+.head{
+    padding-right: 20px;
+    background-color: transparent;
+}
+
+.navbar{
+    text-decoration: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    height: 50px;
+    gap: 20px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: #3d5467;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    padding: 5px; 
+}
+
+.navbar :hover{
+    border-radius: 5px;
+    border: 1px solid #fef9ef;
+    
+}
+.head :hover{
+    padding-right: 20px;
+    background-color: #ffcb77;
+    transition-duration: 1s;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+}
