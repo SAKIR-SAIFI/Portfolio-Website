@@ -7,8 +7,9 @@ body{
 }
 
 .head{
-    padding-right: 20px;
     background-color: transparent;
+    padding-right: 70px;
+    
 }
 
 .navbar{
@@ -16,9 +17,10 @@ body{
     display: flex;
     justify-content: right;
     align-items: center;
-    height: 50px;
+    height: 70px;
     gap: 20px;
-    
+    padding-right: 10px;
+    border-bottom-right-radius: 20px;
 }
 
 a{
@@ -32,13 +34,22 @@ a{
 
 .navbar :hover{
     border-radius: 5px;
-    border: 1px solid #fef9ef;
+    border-bottom: 1px solid #fef9ef;
+    padding-top: 20px;
+    transition-duration: none;
+    transition-timing-function: ease-in-out;
+    transition-delay: 0.5s;
+    
     
 }
 .head :hover{
-    padding-right: 20px;
+    
     background-color: #ffcb77;
     transition-duration: 1s;
     transition-timing-function: ease-in-out;
     transition-delay: 0.5s;
+}
+
+#pad {
+    padding-right: 10px;
 }
